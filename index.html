@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Color Guess</h1>
+  </header>
+  <main>
+    <p id="rgb-color"></p>
+    <section id="circles-container">
+      <section id="circles"></section>
+    </section>
+    <p id="answer">Escolha uma cor</p>
+    <p id="score">Pontos:<span>0</span></p>
+    <section id="buttons-section">
+      <button id="reset-game" class="btn btn-primary">Resetar</button>
+      <section id="select">
+        <select name="difficulty" class="form-select" id="difficulty">
+          <option value="48">Extremo</option>
+          <option value="24">Difícil</option>
+          <option value="12">Média</option>
+          <option value="6" selected>Fácil</option>
+        </select>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
